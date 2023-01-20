@@ -78,7 +78,13 @@
     </CudaCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CudaCompile Include="kernel.cu" />
+    <CudaCompile Include="latency.cu" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CPU.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="type.cuh" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
