@@ -11,9 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{0190CBE3-DCE9-4DE2-97F1-2E3040837AB9}</ProjectGuid>
-    <RootNamespace>security_level_1</RootNamespace>
-    <ProjectName>security_level_1_latency</ProjectName>
+    <ProjectGuid>{D8D60518-66F8-42D0-8AA0-B56E019DF72C}</ProjectGuid>
+    <RootNamespace>security_level_1_throughput</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
@@ -78,7 +77,13 @@
     </CudaCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CudaCompile Include="kernel.cu" />
+    <CudaCompile Include="security_level_1.cu" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CPU_Phase.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="type.cuh" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
