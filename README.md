@@ -14,7 +14,7 @@ This code is a SPHINCS+ code submitted to TCHES_2023 (title : Parallel Implement
 [Build]
 1. Our code is implemented via CUDA. We used Visual studio 2019 version, and cuda runtime used 10.2. CUDA runtime and IDE are required to build our code on the Windows operating system.
 
-2. To build our code on the Linux operating system we need the nvcc NVIDIA CUDA compiler.
+2. To build our code on the Linux operating system, you need the nvcc NVIDIA CUDA compiler.
 
 3. Each project consists of three files: cu file, c file, and cuh file. When building, you need to include all files.
 
