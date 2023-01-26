@@ -16,4 +16,8 @@ This code is a SPHINCS+ code submitted to TCHES_2023 (title : Parallel Implement
 
 2. To build our code on the Linux operating system we need the nvcc NVIDIA CUDA compiler.
 
-3. Each project consists of three files: cu file, c file, and cuh file. When building, you need to include all  files.
+3. Each project consists of three files: cu file, c file, and cuh file. When building, you need to include all files.
+
+[Performance]
+
+We provide performance measurements on GPU Pascal, Ampere and Turing architectures (Geforce GTX 1070, Geforce RTX 2080ti, Geforce RTX 3090).
